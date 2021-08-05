@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="title"><%= title %></h1>
+      <p>Welcome to <%= title %></p>
+      <a href="/new"><button class="anchorBTN">Make a new post</button></a>
+      <div class="posts">
+        <% if (messages.length > 0) { %> <% messages.forEach(message => { %>
+        <div class="post">
+          <h2><%= message.user %></h2>
+          <p><%= message.text %></p>
+          <p><sub><%= message.added %></sub></p>
+        </div>
+        <% })%> <% } %>
+      </div>
+    </section>
+  </body>
+</html>
