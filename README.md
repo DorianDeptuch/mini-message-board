@@ -5,6 +5,13 @@ This project was done as part of [The Odin Project](https://www.theodinproject.c
 ## Live Preview
 [https://mini-messageboard-90210.herokuapp.com/](https://mini-messageboard-90210.herokuapp.com/)
 
+## Technologies Used
+* HTML5
+* CSS3
+* JavaScript
+* Node.js
+* Express
+
 ## Contact
 **LinkedIn**: [www.linkedin.com/in/doriandeptuch](www.linkedin.com/in/doriandeptuch)
 
